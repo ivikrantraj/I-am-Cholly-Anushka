@@ -4,146 +4,433 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>For Anushka ❤️</title>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Poppins:wght@400;500;600&display=swap');
 
-*{box-sizing:border-box}
-html,body{margin:0;width:100%;height:100%;overflow:hidden}
-body{
-  font-family:Poppins,sans-serif;
-  background:linear-gradient(135deg,#fff7f9,#ffeef3 48%,#fff9f2);
-  color:#633b45;
-  position:relative;
+* {
+  box-sizing: border-box;
 }
-.background{
-  position:absolute;inset:0;overflow:hidden;pointer-events:none;
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
-.float{
-  position:absolute;
-  animation:drift var(--speed) ease-in-out infinite alternate;
-  opacity:.72;
-  user-select:none;
+
+body {
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(135deg, #fff7f9, #ffeef3 48%, #fff9f2);
+  color: #633b45;
+  position: relative;
 }
-.heart{color:#f39aaa;font-size:clamp(24px,4vw,50px)}
-.flower{font-size:clamp(24px,4vw,46px)}
-.face{font-size:clamp(25px,4vw,48px);filter:saturate(.8)}
-@keyframes drift{
-  from{transform:translateY(0) rotate(-6deg)}
-  to{transform:translateY(-18px) rotate(7deg)}
+
+.background {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
 }
-.content{
-  position:relative;z-index:2;width:100%;height:100%;
-  display:flex;align-items:center;justify-content:center;
-  text-align:center;padding:24px;
+
+.float {
+  position: absolute;
+  animation: drift var(--speed) ease-in-out infinite alternate;
+  opacity: .72;
+  user-select: none;
 }
-.card{
-  width:min(650px,92vw);
-  padding:42px 25px 34px;
-  border-radius:34px;
-  background:rgba(255,255,255,.54);
-  backdrop-filter:blur(8px);
-  -webkit-backdrop-filter:blur(8px);
-  box-shadow:0 18px 60px rgba(154,83,102,.12);
+
+.heart {
+  color: #f39aaa;
+  font-size: clamp(24px, 4vw, 50px);
 }
-.small{font-size:13px;letter-spacing:3px;text-transform:uppercase;opacity:.65;margin-bottom:22px}
-.big-heart{
-  border:0;background:transparent;cursor:pointer;
-  font-size:clamp(100px,22vw,180px);
-  line-height:1;
-  padding:0;
-  filter:drop-shadow(0 15px 15px rgba(215,91,117,.18));
-  transition:transform .25s ease,filter .25s ease;
-  animation:heartbeat 1.7s infinite;
+
+.flower {
+  font-size: clamp(24px, 4vw, 46px);
 }
-.big-heart:hover{transform:scale(1.07);filter:drop-shadow(0 20px 22px rgba(215,91,117,.25))}
-.big-heart:active{transform:scale(.94)}
-@keyframes heartbeat{
-  0%,100%{transform:scale(1)}
-  14%{transform:scale(1.08)}
-  28%{transform:scale(1)}
-  42%{transform:scale(1.05)}
-  56%{transform:scale(1)}
+
+.face {
+  font-size: clamp(25px, 4vw, 48px);
+  filter: saturate(.8);
 }
-.hint{margin-top:8px;font-size:14px;opacity:.6}
-.message{
-  margin:25px auto 0;
-  min-height:100px;
-  max-width:580px;
-  font-family:Caveat,cursive;
-  font-size:clamp(35px,7vw,62px);
-  line-height:1.12;
-  color:#a64f66;
+
+@keyframes drift {
+  from {
+    transform: translateY(0) rotate(-6deg);
+  }
+
+  to {
+    transform: translateY(-18px) rotate(7deg);
+  }
 }
-.cursor{
-  display:inline-block;width:3px;height:.8em;background:#a64f66;
-  margin-left:4px;vertical-align:-.05em;
-  animation:blink .7s steps(1) infinite;
+
+.content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
 }
-@keyframes blink{50%{opacity:0}}
-.note{font-size:12px;opacity:.5;margin-top:12px}
-.hidden{visibility:hidden}
+
+.card {
+  width: min(650px, 92vw);
+  padding: 42px 25px 34px;
+  border-radius: 34px;
+  background: rgba(255,255,255,.58);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 18px 60px rgba(154,83,102,.12);
+}
+
+.small {
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: .65;
+  margin-bottom: 22px;
+}
+
+.big-heart {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: clamp(100px, 22vw, 180px);
+  line-height: 1;
+  padding: 0;
+  filter: drop-shadow(0 15px 15px rgba(215,91,117,.18));
+  transition: transform .25s ease;
+  animation: heartbeat 1.7s infinite;
+}
+
+.big-heart:hover {
+  transform: scale(1.07);
+}
+
+.big-heart:active {
+  transform: scale(.94);
+}
+
+@keyframes heartbeat {
+  0%,100% {
+    transform: scale(1);
+  }
+
+  14% {
+    transform: scale(1.08);
+  }
+
+  28% {
+    transform: scale(1);
+  }
+
+  42% {
+    transform: scale(1.05);
+  }
+
+  56% {
+    transform: scale(1);
+  }
+}
+
+.hint {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: .6;
+}
+
+.message {
+  margin: 25px auto 0;
+  min-height: 100px;
+  max-width: 580px;
+  font-family: Caveat, cursive;
+  font-size: clamp(35px, 7vw, 62px);
+  line-height: 1.12;
+  color: #a64f66;
+}
+
+.sub-message {
+  font-family: Poppins, sans-serif;
+  font-size: clamp(14px, 3.5vw, 18px);
+  color: #8d6670;
+  margin-top: 12px;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: .8em;
+  background: #a64f66;
+  margin-left: 4px;
+  vertical-align: -.05em;
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.forgive-btn {
+  margin-top: 25px;
+  border: none;
+  background: linear-gradient(135deg, #e86d87, #c94d6b);
+  color: white;
+  padding: 13px 25px;
+  border-radius: 999px;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(201,77,107,.25);
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: all .4s ease;
+}
+
+.forgive-btn.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.forgive-btn:active {
+  transform: scale(.95);
+}
+
+.response {
+  margin-top: 16px;
+  font-family: Caveat, cursive;
+  font-size: 30px;
+  color: #a64f66;
+  opacity: 0;
+  transition: opacity .8s ease;
+}
+
+.response.show {
+  opacity: 1;
+}
+
+.note {
+  font-size: 12px;
+  opacity: .5;
+  margin-top: 12px;
+}
 </style>
 </head>
+
 <body>
+
+<!-- Floating emojis -->
 <div class="background" id="background"></div>
 
+<!-- Background song -->
+<audio id="song" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
 <main class="content">
+
   <section class="card">
-    <div class="small">A little message for you</div>
-    <button class="big-heart" id="heart" aria-label="Open apology">❤️</button>
-    <div class="hint" id="hint">tap the heart</div>
-    <div class="message" id="message" aria-live="polite"></div>
+
+    <div class="small">
+      A little message for you
+    </div>
+
+    <button class="big-heart" id="heart" aria-label="Open apology">
+      ❤️
+    </button>
+
+    <div class="hint" id="hint">
+      tap the heart
+    </div>
+
+    <div class="message" id="message"></div>
+
+    <div class="sub-message" id="subMessage">
+      Cholly na, Cholly na… please forgive me. ❤️
+    </div>
+
+    <button class="forgive-btn" id="forgiveBtn">
+      Can you forgive me? ❤️
+    </button>
+
+    <div class="response" id="response">
+      Thank you, Anushka. 🥺❤️
+    </div>
+
     <div class="note" id="note"></div>
+
   </section>
+
 </main>
 
+
 <script>
+
+// ==============================
+// FLOATING EMOJIS
+// ==============================
+
 const bg = document.getElementById("background");
-const items = ["♡","♥","🌷","🌸","🌼","🌺","🌻","🥺","☺️","😊","🫶","♡","🌹"];
-for(let i=0;i<34;i++){
-  const el=document.createElement("span");
-  const kind=items[Math.floor(Math.random()*items.length)];
-  el.textContent=kind;
-  el.className="float "+(
-    kind.includes("🌷")||kind.includes("🌸")||kind.includes("🌼")||
-    kind.includes("🌺")||kind.includes("🌻")||kind.includes("🌹")?"flower":
-    kind.includes("🥺")||kind.includes("☺")||kind.includes("😊")||kind.includes("🫶")?"face":"heart"
+
+const items = [
+  "♡","♥","🌷","🌸","🌼","🌺","🌻",
+  "🥺","☺️","😊","🫶","♡","🌹"
+];
+
+for (let i = 0; i < 34; i++) {
+
+  const el = document.createElement("span");
+
+  const kind =
+    items[Math.floor(Math.random() * items.length)];
+
+  el.textContent = kind;
+
+  el.className = "float " + (
+
+    kind.includes("🌷") ||
+    kind.includes("🌸") ||
+    kind.includes("🌼") ||
+    kind.includes("🌺") ||
+    kind.includes("🌻") ||
+    kind.includes("🌹")
+
+      ? "flower"
+
+      : kind.includes("🥺") ||
+        kind.includes("☺") ||
+        kind.includes("😊") ||
+        kind.includes("🫶")
+
+      ? "face"
+
+      : "heart"
   );
-  el.style.left=Math.random()*100+"%";
-  el.style.top=Math.random()*100+"%";
-  el.style.setProperty("--speed",(3+Math.random()*5)+"s");
-  el.style.animationDelay=(-Math.random()*5)+"s";
+
+  el.style.left = Math.random() * 100 + "%";
+  el.style.top = Math.random() * 100 + "%";
+
+  el.style.setProperty(
+    "--speed",
+    (3 + Math.random() * 5) + "s"
+  );
+
+  el.style.animationDelay =
+    (-Math.random() * 5) + "s";
+
   bg.appendChild(el);
 }
 
-const heart=document.getElementById("heart");
-const message=document.getElementById("message");
-const hint=document.getElementById("hint");
-const note=document.getElementById("note");
 
-let opened=false;
-heart.addEventListener("click",()=>{
-  if(opened)return;
-  opened=true;
-  hint.textContent="";
-  const text="I am really cholly, Anushka.";
-  let i=0;
-  const cursor=document.createElement("span");
-  cursor.className="cursor";
+// ==============================
+// ELEMENTS
+// ==============================
+
+const heart = document.getElementById("heart");
+const message = document.getElementById("message");
+const hint = document.getElementById("hint");
+const subMessage = document.getElementById("subMessage");
+const forgiveBtn = document.getElementById("forgiveBtn");
+const response = document.getElementById("response");
+const song = document.getElementById("song");
+
+let opened = false;
+
+
+// ==============================
+// HEART CLICK
+// ==============================
+
+heart.addEventListener("click", () => {
+
+  if (opened) return;
+
+  opened = true;
+
+  hint.textContent = "";
+
+  // Start music
+  song.play().catch(() => {
+    console.log("Music could not start automatically.");
+  });
+
+
+  // Message typing animation
+  const text = "I am really cholly, Anushka.";
+
+  let i = 0;
+
+  const cursor = document.createElement("span");
+
+  cursor.className = "cursor";
+
   message.appendChild(cursor);
 
-  function type(){
-    if(i<text.length){
-      cursor.before(document.createTextNode(text[i]));
+
+  function type() {
+
+    if (i < text.length) {
+
+      cursor.before(
+        document.createTextNode(text[i])
+      );
+
       i++;
-      setTimeout(type,75 + Math.random()*65);
-    }else{
-      setTimeout(()=>cursor.remove(),1800);
-      note.textContent="chollyy naa...Please forgive me. ❤️";
+
+      setTimeout(
+        type,
+        75 + Math.random() * 65
+      );
+
+    } else {
+
+      cursor.remove();
+
+      // Show second message
+      setTimeout(() => {
+
+        subMessage.style.opacity = "1";
+
+      }, 500);
+
+
+      // Show forgiveness button
+      setTimeout(() => {
+
+        forgiveBtn.classList.add("show");
+
+      }, 1300);
+
     }
   }
+
   type();
+
 });
+
+
+// ==============================
+// FORGIVE BUTTON
+// ==============================
+
+forgiveBtn.addEventListener("click", () => {
+
+  response.classList.add("show");
+
+  forgiveBtn.textContent =
+    "Thank you ❤️";
+
+});
+
 </script>
+
 </body>
 </html>
